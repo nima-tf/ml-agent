@@ -21,7 +21,8 @@ def main():
     out = net.predict(x_train)
     print(out)
 
-
+#TODO fix predict bug
+#TODO import and train on keras.mnist ds
 
 if __name__ == "__main__":
     main()
